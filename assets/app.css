@@ -1,0 +1,73 @@
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.dowload-button{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 338px;
+}
+
+.story-bottom{
+    position: absolute;
+    width: 338px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+.picture-square{    
+    bottom: 0px;
+    right: 0px;
+    height: 100%;
+    width: 338px; 
+    object-fit: cover;
+}
+
+.story-container{
+    background-color: #DFDFDF;    
+    width: 338px;
+    height: 637px;
+    position: relative;
+    overflow: hidden;
+}
+
+.picture-container{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.file-container{
+    position: relative;
+}
+.file-input{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    opacity: 0;
+    width: 100%;
+    z-index: 3;
+}
+
+.file-input:hover{
+    cursor: pointer;
+}
+
