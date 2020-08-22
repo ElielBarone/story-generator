@@ -32,6 +32,8 @@
     height: 100%;
     width: 338px; 
     object-fit: cover;
+    max-width: 100%;
+    object-position: center;
 }
 
 .story-container{
